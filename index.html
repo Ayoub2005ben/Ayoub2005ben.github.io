@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portfolio - Proyectos DAM</title>
+
+  <!-- Estilos internos -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.1rem;
+      transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      color: #4CAF50;
+    }
+
+    .main-content {
+      padding: 50px 20px;
+    }
+
+    .projects-section {
+      margin-top: 50px;
+    }
+
+    .projects-section h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #333;
+    }
+
+    .project {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+    }
+
+    .project img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .project-details {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .project-details h3 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .project-details p {
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .project-details a {
+      text-decoration: none;
+      color: #4CAF50;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .project-details a:hover {
+      text-decoration: underline;
+    }
+
+    #acerca-de, #contacto {
+      margin-top: 50px;
+      padding: 50px 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #acerca-de h2, #contacto h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    #acerca-de p, #contacto p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      text-align: center;
+      color: #555;
+    }
+
+    #contacto a {
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    footer p {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mis Proyectos - DAM</h1>
+    <p>Desarrollo de Aplicaciones Multiplataforma - Proyectos y prácticas</p>
+  </header>
+
+  <nav>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#acerca-de">Acerca de mí</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="main-content">
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos" class="projects-section">
+      <h2>Mis Proyectos</h2>
+
+      <div class="project">
+        <img src="https://sytelmedia.com/wp-content/uploads/2019/07/mejores-practicas-diseno-web-es-1024x512-1.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1024px; height: 176px; margin: 0px; width: 351px;" alt="Que son y para que sirven las paginas web interactivas? - Sytel Media" jsname="kn3ccd" aria-hidden="false">
+        <div class="project-details">
+          <h3>Aplicación Web Interactiva</h3>
+          <p>Desarrollada con HTML, CSS y JavaScript. Permite gestionar datos en tiempo real con una interfaz amigable.</p>
+          <a href="proyecto1.html">Ver detalles</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://www.hoswedaje.com/wp-content/uploads/que-es-un-sistema-de-gestion-de-bases-de-datos.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1200px; width: 351px; height: 195px; margin: 0px;" alt="Qué es un sistema de gestión de base de datos? - Howedaje" jsname="kn3ccd" aria-hidden="false">
+        <div class="project-details">
+          <h3>Gestión de Base de Datos</h3>
+          <p>Aplicación para gestionar información de usuarios utilizando una base de datos MySQL y un backend en PHP.</p>
+          <a href="proyecto2.html">Ver detalles</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://www.seobility.net/es/wiki/images/b/b3/API-Rest.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 900px; height: 267px; margin: 0px; width: 353px;" alt="Qué es una API REST? - Seobility Wiki" jsname="kn3ccd" data-ilt="1731488192367" aria-hidden="false">
+        <div class="project-details">
+          <h3>API RESTful</h3>
+          <p>API diseñada con Node.js y Express para manejar solicitudes y respuestas en formato JSON.</p>
+          <a href="proyecto3.html">Ver detalles</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Sección Acerca de mí -->
+    <section id="acerca-de">
+        <h2>Acerca de mí</h2>
+        <p>Soy estudiante de Desarrollo de Aplicaciones Multiplataforma en donde he adquirido habilidades en programación, diseño de interfaces y manejo de bases de datos. Me apasiona crear aplicaciones útiles y eficientes para facilitar la vida de las personas.</p>
+        <!-- Imagen de perfil corregida -->
+        <img src="https://media-mad2-1.cdn.whatsapp.net/v/t61.24694-24/455159622_585228390496698_5825938675233898080_n.jpg?ccb=11-4&oh=01_Q5AaINrsLbsBsvZIME_DwTvw_-GDgqDhsrSaMpvCrPVHz7MG&oe=674181DE&_nc_sid=5e03e0&_nc_cat=106" alt="Foto de perfil" style="border-radius: 50%; margin-top: 20px; width: 150px; height: 150px;">
+      </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si deseas saber más sobre mis proyectos o tienes alguna consulta, puedes contactarme a través de mi correo electrónico.</p>
+      <p><a href="mailto:miemail@dominio.com">aben56311@gmail.com</a></p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Mi Portfolio - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
